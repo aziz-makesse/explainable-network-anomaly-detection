@@ -115,4 +115,22 @@ Le prompt inclut les statistiques clés pour fournir un contexte synthétique, g
    - Macro F1 : 0.86
 
 
+## 🔍 Visualisations
+
+## 🔍 Visualisations
+
+<table>
+  <tr>
+    <td><strong>Interface utilisateur (FastAPI)</strong></td>
+    <td><strong>Analyse du LLM (Mistral)</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img width="500" alt="Interface utilisateur" src="Capture1.PNG" />
+    </td>
+    <td>
+      <img width="500" alt="Analyse du LLM" src="Capture2.PNG" />
+    </td>
+  </tr>
+</table>
 
