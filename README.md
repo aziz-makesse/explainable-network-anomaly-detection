@@ -115,4 +115,11 @@ Le prompt inclut les statistiques clés pour fournir un contexte synthétique, g
    - Macro F1 : 0.86
 
 
+## 🔍 Visualisations
+
+### Interface
+![Interface](capture1.PNG)
+
+### Exemple de prédiction avec explication
+![Analyse du LLM](capture2.PNG)
 
