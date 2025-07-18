@@ -118,10 +118,8 @@ Le prompt inclut les statistiques clés pour fournir un contexte synthétique, g
 ## 🔍 Visualisations
 
 ### Interface
-![Interface](<img width="1850" height="894" alt="image" src="https://github.com/user-attachments/assets/87ca5e96-545e-4c86-b6cc-b487810951ef" />
-)
+![Interface](models/Capture1.PNG)
 
 ### Exemple de prédiction avec explication
-![Analyse du LLM](<img width="1848" height="893" alt="image" src="https://github.com/user-attachments/assets/88da4a88-787c-4723-9a50-91ec0aa2900a" />
-)
+![Analyse du LLM](models/Capture2.PNG)
 
