@@ -97,6 +97,7 @@ Docs interactives : http://127.0.0.1:8000/docs
       4. Renvoie prédiction + stats + explication LLM
 
 - Prompt engineering
+
 Le prompt inclut les statistiques clés pour fournir un contexte synthétique, garantissant que Mistral analyse l’ensemble des 10 paquets.
 
 ## 📈 Résultats & Évaluation
