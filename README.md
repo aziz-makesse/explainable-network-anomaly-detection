@@ -126,10 +126,10 @@ Le prompt inclut les statistiques clés pour fournir un contexte synthétique, g
   </tr>
   <tr>
     <td>
-      <img width="500" alt="Interface utilisateur" src="models/Capture1.PNG" />
+      <img width="500" alt="Interface utilisateur" src="Capture1.PNG" />
     </td>
     <td>
-      <img width="500" alt="Analyse du LLM" src="models/Capture2.PNG" />
+      <img width="500" alt="Analyse du LLM" src="Capture2.PNG" />
     </td>
   </tr>
 </table>
