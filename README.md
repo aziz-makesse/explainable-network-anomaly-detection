@@ -37,12 +37,19 @@ pip install fastapi uvicorn llama-cpp-python numpy pandas scikit-learn tensorflo
 - feature_info.json
 
 
+---
+
+
 ## 🚀 Lancement
 uvicorn main:app --reload
 
 → L’API tourne sur http://127.0.0.1:8000
 
 Docs interactives : http://127.0.0.1:8000/docs
+
+
+---
+
 
 ## 🔍 Usage
 1) Prédiction brute (LSTM)
@@ -68,6 +75,10 @@ Docs interactives : http://127.0.0.1:8000/docs
   "statistics": { "count":10, "dur_mean":… , … },
   "llm_explanation": "Analyse détaillée par Mistral…"
    }
+
+
+---
+
 
 ## 🛠️ Détails techniques
 - agent.py
@@ -100,6 +111,10 @@ Docs interactives : http://127.0.0.1:8000/docs
 
 Le prompt inclut les statistiques clés pour fournir un contexte synthétique, garantissant que Mistral analyse l’ensemble des 10 paquets.
 
+
+---
+
+
 ## 📈 Résultats & Évaluation
 - Dataset : UNSW‑NB15 (train + test en .parquet)
 
@@ -116,7 +131,8 @@ Le prompt inclut les statistiques clés pour fournir un contexte synthétique, g
    - Macro F1 : 0.86
 
 
-## 🔍 Visualisations
+---
+
 
 ## 🔍 Visualisations
 
