@@ -117,9 +117,20 @@ Le prompt inclut les statistiques clés pour fournir un contexte synthétique, g
 
 ## 🔍 Visualisations
 
-### Interface
-![Interface](models/Capture1.PNG)
+## 🔍 Visualisations
 
-### Exemple de prédiction avec explication
-![Analyse du LLM](models/Capture2.PNG)
+<table>
+  <tr>
+    <td><strong>Interface utilisateur (FastAPI)</strong></td>
+    <td><strong>Analyse du LLM (Mistral)</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img width="500" alt="Interface utilisateur" src="models/Capture1.PNG" />
+    </td>
+    <td>
+      <img width="500" alt="Analyse du LLM" src="models/Capture2.PNG" />
+    </td>
+  </tr>
+</table>
 
