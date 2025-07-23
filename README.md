@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Contexte et Objectif
+## Contexte et Objectif
 
 Ce projet combine :
 1. Un **modèle LSTM** entraîné sur le dataset **UNSW‑NB15** pour détecter les fenêtres de flux réseau anormales.
@@ -16,7 +16,7 @@ Ce projet combine :
 ---
 
 
-## ⚙️ Installation
+## Installation
 
 1. **Cloner** le dépôt  
    ```bash
@@ -40,7 +40,7 @@ pip install fastapi uvicorn llama-cpp-python numpy pandas scikit-learn tensorflo
 ---
 
 
-## 🚀 Lancement
+## Lancement
 uvicorn main:app --reload
 
 → L’API tourne sur http://127.0.0.1:8000
@@ -51,7 +51,7 @@ Docs interactives : http://127.0.0.1:8000/docs
 ---
 
 
-## 🔍 Usage
+## Usage
 1) Prédiction brute (LSTM)
 - POST /predict
    ```bash
@@ -80,7 +80,7 @@ Docs interactives : http://127.0.0.1:8000/docs
 ---
 
 
-## 🛠️ Détails techniques
+## Détails techniques
 - agent.py
 
    - Charge scaler.pkl, feature_info.json
@@ -115,7 +115,7 @@ Le prompt inclut les statistiques clés pour fournir un contexte synthétique, g
 ---
 
 
-## 📈 Résultats & Évaluation
+## Résultats & Évaluation
 - Dataset : UNSW‑NB15 (train + test en .parquet)
 
 - Séquences : fenêtres glissantes de 10 paquets, étiquetées “anomalie” si au moins un paquet malicieux.
@@ -134,7 +134,7 @@ Le prompt inclut les statistiques clés pour fournir un contexte synthétique, g
 ---
 
 
-## 🔍 Visualisations
+## Visualisations
 
 <table>
   <tr>
