@@ -1,4 +1,4 @@
-# Multi‑Agent Anomaly Detection
+# Explainable network anomaly detection
 
 **Détection d’anomalies réseau avec LSTM & explications LLM Mistral via FastAPI**
 
